@@ -58,9 +58,17 @@ topnav_dropdowns:
           url:
         - title: Custom control tuples
           url:
+        - title: Python integration
+          url:
+    - title: Ecosystem integration
+      folderitems:
         - title: Apache Beam integration
           url:
-        - title: Python integration
+        - title: Apache Calcite integration
+          url:
+        - title: Apache Samoa integration
+          url:
+        - title: H20 integration
           url:
     - title: HOW TOs
       folderitems:
@@ -107,12 +115,12 @@ topnav_dropdowns:
     - title: Java docs
       folderitems:
         - title: Apache Apex engine 3.7.0
-          url:
+          external_url:
         - title: Apache Apex malhar 3.8.0
-          url:
+          external_url:
         - title: Apache Apex engine 3.6.0
-          url:
+          external_url:
         - title: Apache Apex malhar 3.7.0
-          url:
+          external_url:
         - title: Apache Apex malhar 3.6.0
-          url:
+          external_url:
