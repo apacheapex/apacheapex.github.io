@@ -1,0 +1,60 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Home
+      url: index.html
+    - title: Powered by
+      url:
+    - title: Blog
+      url:
+    - title: News
+      url: 
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Documentation
+      folderitems:
+        - title: Architecture
+          url:
+        - title: Use cases
+          url:
+        - title: Connectors reference
+          url:
+        - title: Presentations
+          url:
+    - title: HOW TOs
+      folderitems:
+        - title: Quick start
+          url:
+        - title: Docker
+          url:
+        - title: Kubernetes
+          url:
+        - title: Troubleshooting
+          url:
+    - title: Community
+      folderitems:
+        - title: Mailing lists
+          url:
+        - title: Issue tracking
+          url:
+        - title: Release process
+          url:
+        - title: Security process
+          url:
+        - title: Apache Apex sources
+          url:
+        - title: Apache Malhar sources
+          url:
+        - title: Apache Apex sources
+          url:
+    - title: Java docs
+      folderitems:
+        - title: Apache Apex engine 3.7.0
+          url:
+        - title: Apache Apex malhar 3.7.0
+          url:
