@@ -10,7 +10,7 @@ topnav:
     - title: Blog
       url:
     - title: News
-      url: 
+      url:
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -22,13 +22,61 @@ topnav_dropdowns:
           url:
         - title: Use cases
           url:
+        - title: High level SQL API
+          url:
         - title: Connectors reference
           url:
+        - title: Commandline reference
+          url:
+        - title: Properties reference
+          url:
         - title: Presentations
+          url:
+    - title: Internals
+      folderitems:
+        - title: Operator lifecycle
+          url:
+        - title: Checkpointing
+          url:
+        - title: Window management
+          url:
+        - title: Serialization
+          url:
+        - title: Processing semantics
+          url:
+        - title: Buffer server
+          url:
+        - title: Operator placement
+          url:
+        - title: Security model
+          url:
+        - title: Ports
+          url:
+        - title: Codecs
+          url:
+        - title: Autometrics
+          url:
+        - title: Custom control tuples
+          url:
+        - title: Apache Beam integration
+          url:
+        - title: Python integration
           url:
     - title: HOW TOs
       folderitems:
         - title: Quick start
+          url:
+        - title: Build from sources
+          url:
+        - title: Installation
+          url:
+        - title: Development setup
+          url:
+        - title: Application development
+          url:
+        - title: Application management
+          url:
+        - title: Best practises
           url:
         - title: Docker
           url:
@@ -42,19 +90,29 @@ topnav_dropdowns:
           url:
         - title: Issue tracking
           url:
+        - title: How to contribute
+          url:
         - title: Release process
           url:
         - title: Security process
           url:
-        - title: Apache Apex sources
+        - title: Apache Apex github source
           url:
-        - title: Apache Malhar sources
+        - title: Apache Malhar github source
           url:
-        - title: Apache Apex sources
+        - title: Apache Apex website github source
+          url:
+        - title: People
           url:
     - title: Java docs
       folderitems:
         - title: Apache Apex engine 3.7.0
           url:
+        - title: Apache Apex malhar 3.8.0
+          url:
+        - title: Apache Apex engine 3.6.0
+          url:
         - title: Apache Apex malhar 3.7.0
+          url:
+        - title: Apache Apex malhar 3.6.0
           url:
