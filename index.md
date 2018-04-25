@@ -1,5 +1,5 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "Apache Apex"
 keywords: sample homepage
 tags: [getting_started]
 permalink: index.html
