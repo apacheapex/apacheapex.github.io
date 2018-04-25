@@ -121,11 +121,11 @@ topnav_dropdowns:
         - title: Security process
           url:
         - title: Apache Apex github source
-          url:
+          external_url: https://github.com/apache/apex-core
         - title: Apache Malhar github source
-          url:
+          external_url: https://github.com/apache/apex-malhar
         - title: Apache Apex website github source
-          url:
+          external_url: https://github.com/apache/apex-site
         - title: Downloads
           url:
         - title: People
