@@ -62,6 +62,10 @@ topnav_dropdowns:
       folderitems:
         - title: HDFS
           url:
+        - title: Apache Geode
+          url:
+        - title: S3
+          url:
         - title: Kafka
           url:
         - title: Cassandra
@@ -76,15 +80,7 @@ topnav_dropdowns:
           url:
         - title: Apache Samoa integration
           url:
-        - title: Apache mxnet integration
-          url:
-        - title: Tensorflow integration
-          url:
-        - title: Scikit integration
-          url:
-        - title: Pytorch integration
-          url:
-        - title: H20 integration
+        - title: Apache Nifi integration
           url:
     - title: HOW TOs
       folderitems:
