@@ -5,11 +5,7 @@ topnav:
   items:
     - title: Home
       url: index.html
-    - title: Powered by
-      url:
     - title: Blog
-      url:
-    - title: News
       url:
 
 #Topnav dropdowns
@@ -22,9 +18,11 @@ topnav_dropdowns:
           url:
         - title: Use cases
           url:
+        - title: High level Streams API
+          url:
         - title: High level SQL API
           url:
-        - title: Connectors reference
+        - title: Low level API
           url:
         - title: Commandline reference
           url:
@@ -60,13 +58,31 @@ topnav_dropdowns:
           url:
         - title: Python integration
           url:
-    - title: Ecosystem integration
+    - title: Connectors
+      folderitems:
+        - title: HDFS
+          url:
+        - title: Kafka
+          url:
+        - title: Cassandra
+          url:
+        - title: Kudu
+          url:
+    - title: Ecosystem
       folderitems:
         - title: Apache Beam integration
           url:
         - title: Apache Calcite integration
           url:
         - title: Apache Samoa integration
+          url:
+        - title: Apache mxnet integration
+          url:
+        - title: Tensorflow integration
+          url:
+        - title: Scikit integration
+          url:
+        - title: Pytorch integration
           url:
         - title: H20 integration
           url:
@@ -109,6 +125,8 @@ topnav_dropdowns:
         - title: Apache Malhar github source
           url:
         - title: Apache Apex website github source
+          url:
+        - title: Downloads
           url:
         - title: People
           url:

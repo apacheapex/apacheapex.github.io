@@ -74,6 +74,17 @@ defaults:
       search: true
       sidebar:
       topnav: topnav
+
+  -
+    scope:
+      path: "index.html"
+      type: "pages"
+    values:
+      layout: "none"
+      comments: false
+      search: false
+      sidebar: none
+      topnav: topnav
   -
     scope:
       path: ""
