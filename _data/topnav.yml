@@ -107,7 +107,7 @@ topnav_dropdowns:
     - title: Community
       folderitems:
         - title: Mailing lists
-          url:
+          url: mailinglists.html
         - title: Issue tracking
           url:
         - title: How to contribute

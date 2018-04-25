@@ -1,5 +1,5 @@
 ---
-title: "Apache Apex"
+title: "Home"
 keywords: Apache Apex Malhar Streaming
 tags: Home page
 permalink: index.html
