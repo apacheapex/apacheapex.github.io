@@ -5,6 +5,6 @@ keywords: mailing lists
 summary: ""
 sidebar:
 permalink: mailinglists.html
-folder: mydoc
+folder: community
 topnav: topnav
 ---
