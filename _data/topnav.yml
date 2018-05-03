@@ -5,13 +5,17 @@ topnav:
   items:
     - title: Home
       url: index.html
-    - title: Blog
-      url:
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
+    - title: Blog
+      folderitems:
+        - title: Latest
+          url:
+        - title: Archive
+          url:
     - title: Documentation
       folderitems:
         - title: Architecture
@@ -125,6 +129,8 @@ topnav_dropdowns:
         - title: Downloads
           url:
         - title: People
+          url:
+        - title: Press
           url:
     - title: Java docs
       folderitems:
