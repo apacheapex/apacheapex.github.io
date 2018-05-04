@@ -12,16 +12,16 @@ toc: false
 
  <!-- Jumbotron Header -->
  <header class="jumbotron my-4">
-   <table class="table table-borderless table-condensed">
-     <tr class="table-borderless">
-      <td class="apexlogotext"><img src="{{ "images/apex-logo-big.png"  }}"/></td>
-      <td class="apexlogotext">
-        <h2 class="display-3 whitetext">Apache Apex <sup class="whitetext">TM</sup></h2>
-        <h3 class="whitetext">Enterprise-grade unified stream and batch processing engine. </h3>
-      </td>
-    </tr>
-   </table>
- </header>
+    <div class="row">
+          <div class="col-sm-4 apexlogotext">
+            <img src="{{ "images/apex-logo-big.png"  }}"/>
+          </div>
+          <div class="col-sm-16 apexlogotext">
+            <h2 class="display-3 whitetext">Apache Apex <sup class="whitetext">TM</sup></h2>
+            <h3 class="whitetext">Enterprise-grade unified stream and batch processing engine. </h3>
+          </div>
+    </div>
+   </header>
 
  <!-- Page Features -->
  <div class="row text-center">
@@ -118,7 +118,7 @@ toc: false
    <div class="col-lg-3 col-md-6 mb-4">
      <div class="card">
        <div class="card-body">
-         <h4 class="card-title">Rich features</h4>
+         <h4 class="card-title">Rich feature set</h4>
          <p class="card-text">Enhance streaming application architecures using custom control tuples, a powerful command line client and even support for python</p>
        </div>
        <div class="card-footer">
@@ -131,14 +131,52 @@ toc: false
  <!-- /.row -->
 
  <br>
- <br>
- <br>
 
- <!-- Jumbotron Header -->
- <header class="jumbotron my-4">
-   <h1 class="display-3">A Warm Welcome!</h1>
-   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
- </header>
+ <div id="poweredByApexCarousel" class="carousel slide apexlogotext" data-ride="carousel">
+   <!-- Indicators -->
+   <ol class="carousel-indicators">
+     <li data-target="#poweredByApexCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#poweredByApexCarousel" data-slide-to="1"></li>
+     <li data-target="#poweredByApexCarousel" data-slide-to="2"></li>
+   </ol>
+
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner">
+     <div class="item active">
+       <img src="{{ "images/apex-logo-big.png"  }}" alt="Los Angeles">
+       <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>LA is always so much fun!</p>
+      </div>
+     </div>
+
+     <div class="item">
+       <img src="{{ "images/apex-logo-big.png"  }}" alt="Chicago">
+       <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>LA is always so much fun!</p>
+      </div>
+     </div>
+
+     <div class="item">
+       <img src="{{"images/apex-logo-big.png"}}" alt="New York">
+       <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>LA is always so much fun!</p>
+      </div>
+     </div>
+   </div>
+
+   <!-- Left and right controls -->
+   <a class="left carousel-control" href="#poweredByApexCarousel" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#poweredByApexCarousel" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
 
 </div>
 <!-- /.container -->
