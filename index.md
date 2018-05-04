@@ -132,51 +132,113 @@ toc: false
 
  <br>
 
- <div id="poweredByApexCarousel" class="carousel slide apexlogotext" data-ride="carousel">
-   <!-- Indicators -->
-   <ol class="carousel-indicators">
-     <li data-target="#poweredByApexCarousel" data-slide-to="0" class="active"></li>
-     <li data-target="#poweredByApexCarousel" data-slide-to="1"></li>
-     <li data-target="#poweredByApexCarousel" data-slide-to="2"></li>
-   </ol>
+ <header class="jumbotron my-4">
+    <div class="row">
+          <div class="col-sm-6 text-center">
+          <h3 class="whitetext"> Powered by Apex</h3>
+          <br>
+          <br>
+          <div id="poweredByApexCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                  <h3 class="whitetext">GE</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Capital One</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Silver Spring Networks</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">PubMatic</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Xavient</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">ThreatMetrix</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">FacilitiesSupplies</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">DataTorrent</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Royal Bank of Canada</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Infosys</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">TechMahindra</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">MammothData</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">CloudWick</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Synerzip</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Trace3</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">LeadFerret</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Target</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">geniSIGHTS</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Aaum Analytics</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Genius Minds</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Fidelity National Information Services Inc <br> (FIS Global)</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Oraxi</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">ThinkBumbleBee</h3>
+              </div>
+              <div class="item">
+                  <h3 class="whitetext">Ellicium</h3>
+              </div>
+            </div>
 
-   <!-- Wrapper for slides -->
-   <div class="carousel-inner">
-     <div class="item active">
-       <img src="{{ "images/apex-logo-big.png"  }}" alt="Los Angeles">
-       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
+            <!-- Left and right controls -->
+            <!--
+            <a class="left carousel-control" href="#poweredByApexCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#poweredByApexCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            -->
+          </div>
       </div>
-     </div>
 
-     <div class="item">
-       <img src="{{ "images/apex-logo-big.png"  }}" alt="Chicago">
-       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
+      <div class="col-sm-16 text-center">
+      <h3 class="whitetext">Tweets by @ApacheApex</h3>
+      <br>
+      <br>
       </div>
-     </div>
 
-     <div class="item">
-       <img src="{{"images/apex-logo-big.png"}}" alt="New York">
-       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
-      </div>
-     </div>
-   </div>
+    </div>
+   </header>
 
-   <!-- Left and right controls -->
-   <a class="left carousel-control" href="#poweredByApexCarousel" data-slide="prev">
-     <span class="glyphicon glyphicon-chevron-left"></span>
-     <span class="sr-only">Previous</span>
-   </a>
-   <a class="right carousel-control" href="#poweredByApexCarousel" data-slide="next">
-     <span class="glyphicon glyphicon-chevron-right"></span>
-     <span class="sr-only">Next</span>
-   </a>
- </div>
+
 
 </div>
 <!-- /.container -->
