@@ -135,7 +135,7 @@ topnav_dropdowns:
         - title: Downloads
           url:
         - title: People
-          url:
+          url: people.html
         - title: Press
           url:
     - title: Java docs
