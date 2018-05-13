@@ -136,8 +136,10 @@ topnav_dropdowns:
           url:
         - title: People
           url: people.html
-        - title: Press
-          url:
+        - title: Meetup groups
+          url: meetups.html
+        - title: Powered by
+          url: poweredby.html
     - title: Java docs
       folderitems:
         - title: Apache Apex engine 3.7.0
