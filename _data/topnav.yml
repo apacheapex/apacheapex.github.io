@@ -36,7 +36,7 @@ topnav_dropdowns:
           url:
     - title: Internals
       folderitems:
-        - title: Operator lifecycle
+        - title: Operator guide
           url:
         - title: Checkpointing
           url:
@@ -56,11 +56,11 @@ topnav_dropdowns:
           url:
         - title: Codecs
           url:
-        - title: Autometrics
+        - title: Metrics
           url:
         - title: Custom control tuples
           url:
-        - title: Python integration
+        - title: Polyglot support
           url:
     - title: Connectors
       folderitems:
@@ -72,9 +72,15 @@ topnav_dropdowns:
           url:
         - title: Kafka
           url:
+        - title: HBase
+          url:
         - title: Cassandra
           url:
         - title: Kudu
+          url:
+        - title: JMS
+          url:
+        - title: TCP
           url:
     - title: Ecosystem
       folderitems:
