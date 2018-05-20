@@ -13,9 +13,9 @@ topnav_dropdowns:
     - title: Blog
       folderitems:
         - title: Latest
-          url:
+          url: latestblogentries.html
         - title: Archive
-          url:
+          url: blogs_archive.html
     - title: Documentation
       folderitems:
         - title: Architecture
