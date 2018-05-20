@@ -34,6 +34,8 @@ topnav_dropdowns:
           url:
         - title: Presentations
           url:
+        - title: Writing Apache Apex applications
+          url:
     - title: Internals
       folderitems:
         - title: Operator guide

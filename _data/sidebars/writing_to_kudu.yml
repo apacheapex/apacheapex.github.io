@@ -1,0 +1,101 @@
+entries:
+- title: kudu-apex-integration
+  folders:
+
+  - title: About this post
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Introduction
+        url: /writing_to_kudu_using_apex.html#intro
+        output: web
+        type: frontmatter
+  - title: Apex integration
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Apex support for Kudu
+        url: /writing_to_kudu_using_apex.html#apexintegration
+        output: web
+        type: frontmatter
+  - title: Write Paths
+    url: /writing_to_kudu_using_apex.html#writepaths
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Write modes
+        url: /writing_to_kudu_using_apex.html#writemodes
+        output: web
+        type: frontmatter
+      - title: Automatic column mapping
+        url: /writing_to_kudu_using_apex.html#autocolmap
+        output: web
+        type: frontmatter
+      - title: Multi table writes
+        url: /writing_to_kudu_using_apex.html#multitablewrite
+        output: web
+        type: frontmatter
+      - title: Selective column writes
+        url: /writing_to_kudu_using_apex.html#selcolwrite
+        output: web
+        type: frontmatter
+      - title: End to end exactly once
+        url: /writing_to_kudu_using_apex.html#exactlyonce
+        output: web
+        type: frontmatter
+      - title: Write timestamps
+        url: /writing_to_kudu_using_apex.html#writets
+        output: web
+        type: frontmatter
+      - title: Metrics
+        url: /writing_to_kudu_using_apex.html#metrics
+        output: web
+        type: frontmatter
+  - title: Read Paths
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Reads
+        url: /writing_to_kudu_using_apex.html#reads
+        output: web
+        type: frontmatter
+      - title: SQL scans
+        url: /writing_to_kudu_using_apex.html#sqlscans
+        output: web
+        type: frontmatter
+      - title: Distributed SQL scans
+        url: /writing_to_kudu_using_apex.html#dsscans
+        output: web
+        type: frontmatter
+      - title: High throughput scans
+        url: /writing_to_kudu_using_apex.html#htscans
+        output: web
+        type: frontmatter
+      - title: Partition mapping
+        url: /writing_to_kudu_using_apex.html#parmap
+        output: web
+        type: frontmatter
+      - title: High avaiability
+        url: /writing_to_kudu_using_apex.html#ha
+        output: web
+        type: frontmatter
+      - title: Scan order
+        url: /writing_to_kudu_using_apex.html#scanord
+        output: web
+        type: frontmatter
+      - title: Control tuples
+        url: /writing_to_kudu_using_apex.html#ctrltup
+        output: web
+        type: frontmatter
+      - title: Time travelling in Kudu
+        url: /writing_to_kudu_using_apex.html#ttkudu
+        output: web
+        type: frontmatter
+  - title: Conclusion
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Conclusion
+        url: /writing_to_kudu_using_apex.html#conclu
+        output: web
+        type: frontmatter
