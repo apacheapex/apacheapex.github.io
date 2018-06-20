@@ -21,7 +21,7 @@ topnav_dropdowns:
         - title: Architecture
           url: architecture.html
         - title: Use cases
-          url: 
+          url:
         - title: High level Streams API
           url:
         - title: High level SQL API
@@ -108,6 +108,8 @@ topnav_dropdowns:
           url:
         - title: Application management
           url:
+        - title: Contribute a Blog
+          url:
         - title: Best practises
           url:
         - title: Docker
@@ -115,6 +117,8 @@ topnav_dropdowns:
         - title: Kubernetes
           url:
         - title: Troubleshooting
+          url:
+        - title: Build Apache Apex website
           url:
     - title: Community
       folderitems:

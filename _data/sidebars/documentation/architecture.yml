@@ -1,0 +1,68 @@
+entries:
+- title: Apache Apex architecture
+  folders:
+  - title: Introduction
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: High level architecture
+        url: /architecture.html#intro
+        output: web
+        type: frontmatter
+  - title: Architecture Diagram
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Block Diagram
+        url: /architecture.html#archdia
+        output: web
+        type: frontmatter
+  - title: Building blocks of Apex
+    url: /architecture.html#bldbck
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Stream
+        url: /architecture.html#stream
+        output: web
+        type: frontmatter
+      - title: Operator
+        url: /architecture.html#oper
+        output: web
+        type: frontmatter
+      - title: DAG
+        url: /architecture.html#dag
+        output: web
+        type: frontmatter
+  - title: Stream computing model
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Streaming as a first class citizen
+        url: /architecture.html#streamcompute
+        output: web
+        type: frontmatter
+  - title: Batch Computing model
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Batch computing model
+        url: /architecture.html#batchcompute
+        output: web
+        type: frontmatter
+  - title: Deployment
+    output: web
+    type: frontmatter
+    folderitems:
+      - title: Deployment model
+        url: /architecture.html#deployment
+        output: web
+        type: frontmatter
+      - title: YARN deployment model
+        url: /architecture.html#yarnlayout
+        output: web
+        type: frontmatter
+      - title: Embedded deployment model
+        url: /architecture.html#embedlayout
+        output: web
+        type: frontmatter
