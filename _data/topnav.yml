@@ -19,9 +19,9 @@ topnav_dropdowns:
     - title: Documentation
       folderitems:
         - title: Architecture
-          url:
+          url: architecture.html
         - title: Use cases
-          url:
+          url: 
         - title: High level Streams API
           url:
         - title: High level SQL API
